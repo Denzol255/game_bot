@@ -19,6 +19,8 @@ function guessNumber() {
         let choise = confirm("Поздравляю, вы угадали! Хотели бы сыграть еще?");
         if (choise) {
           location.reload();
+        } else {
+          alert("Игра окончена!");
         }
       } else if (userNumber < ourNumber) {
         userNumber = prompt(
@@ -37,6 +39,8 @@ function guessNumber() {
       let choise = confirm("Попытки закончились, хотите сыграть еще?");
       if (choise) {
         location.reload();
+      } else {
+        alert("Игра окончена!");
       }
     }
   };
