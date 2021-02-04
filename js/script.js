@@ -34,18 +34,3 @@ function guessNumber() {
 }
 
 guessNumber();
-
-//   if (userNumber > ourNumber) {
-
-//     reduceNumber();
-//   } else if (userNumber < ourNumber) {
-//     let increaseNumber = function () {
-//       userNumber = prompt("Загаданное число больше");
-//       return increaseNumber();
-//     };
-//     increaseNumber();
-//   } else if (userNumber === ourNumber) {
-//     alert("Поздравляю, вы угадали!!!");
-//   } else if (userNumber === null) {
-//     alert("Игра окончена");
-// }
