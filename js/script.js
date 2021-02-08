@@ -18,7 +18,7 @@ function guessNumber() {
       } else if (+userNumber === ourNumber) {
         let choise = confirm("Поздравляю, вы угадали! Хотели бы сыграть еще?");
         if (choise) {
-          location.reload();
+          guessNumber();
         } else {
           alert("Игра окончена!");
         }
@@ -38,7 +38,7 @@ function guessNumber() {
     } else {
       let choise = confirm("Попытки закончились, хотите сыграть еще?");
       if (choise) {
-        location.reload();
+        guessNumber();
       } else {
         alert("Игра окончена!");
       }
